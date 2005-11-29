@@ -1,0 +1,77 @@
+Model3D::WavefrontObject -- Read, Write and manipulate Alias Wavefront Objects
+
+ABSTRACT:
+
+This module allows the user to load an Alias Wavefront Object 3D model into
+memory, perform several manipulations on it, and save it back out
+programmatically.
+
+For full information on usage, see the included POD.
+
+COPYRIGHT INFO
+
+The WavefrontObject.pm module is copyright 2005 Sean 'Dodger' Cannon.
+It is covered by the Perl "Artistic License", which allows for free usage
+and redistribution.  See the Artistic License in the Perl source package
+for details.
+
+THE LATEST VERSION IS 1.00
+
+INSTALLATION:
+
+Read these instructions all the way through before you start!
+
+this is not guaranteed.
+
+3.  Unpack the tar file:
+
+        tar zxvf Model3D-WavefrontObject-1.XX.tar.gz
+
+    (Where "XX" is the most recent revision number.)  This will create
+    the directory Model3D-WavefrontObject-1.XX.
+
+4.  and execute the standard installation steps
+
+	a.  cd Model3D-WavefrontObject-1.XX
+	b.  perl Makefile.PL
+	c.  make
+        d.  make test (optional)
+	e.  make html (optional)
+	f.  make install
+
+    This will create WavefrontObject.pm, its HTML manual page, and install
+    WavefrontObject into the system-wide Perl library directory under the
+    Model3D heirarchy.  You'll need root privileges to do the install step.
+    If you don't have them, see below.
+
+IF YOU RUN INTO PROBLEMS
+
+Make sure you have the Math::Trig module installed before installing 
+Model3D::WavefrontObject.
+Since no executables are called, installation should be no problem.
+
+FREQUENTLY ASKED QUESTIONS
+
+BUG REPORTS
+
+Feel free to contact me via e-mail, subject to the caveats below.
+Provide the version numbers of WavefrontObject, Perl, make and model
+of your operating system. Provide a small script that demonstrates the bug.
+
+WHAT'S NEW IN 1.00
+
+The whole thing.
+
+ACKNOWLEDGEMENTS:
+
+UPDATES:
+
+The current version of Model3D::WavefrontObject can be found at:
+
+   http://www.cpan.org
+
+AUTHOR:
+
+Sean 'Dodger' Cannon
+dodger@xfx3d.net
+http://www.xfx3d.net

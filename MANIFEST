@@ -1,0 +1,7 @@
+README
+Changes
+WavefrontObject.pm
+MANIFEST
+Makefile.PL
+t/WavefrontObject.t
+t/box.obj
